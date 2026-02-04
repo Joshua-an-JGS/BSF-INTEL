@@ -1,7 +1,7 @@
 {
-    "latest_version": "1.1.1",
+    "latest_version": "1.1.2",
     "critical": true,
-    "release_notes": "CRITICAL: AI Engine Fix.\n- Restored missing model files (.keras, .pkl)\n- Fixed runtime path resolution for AI models\n- Improved stability on startup",
-    "installer_url": "https://raw.githubusercontent.com/Joshua-an-JGS/BSF-INTEL/refs/heads/main/updates/manifest.json",
-    "sha256": "085F2D7FEEDED0707A7EBE7E85219589AC117876F77DC514C9567B73FB69E76A"
+    "release_notes": "CRITICAL: AI Engine & Packaging Fix.\n- Fixed NumPy/TensorFlow binary incompatibility\n- Corrected Inno Setup packaging paths\n- Updated version to v1.1.2 for all production units",
+    "installer_url": "https://raw.githubusercontent.com/Joshua-an-JGS/BSF-INTEL/refs/heads/main/updates/BSF_INTEL_v1.1.2.exe",
+    "sha256": "ad5412ae24fb90eb1c7de450a5e5bf3b7a3613dd245faef79de8115af4a032f8"
 }
