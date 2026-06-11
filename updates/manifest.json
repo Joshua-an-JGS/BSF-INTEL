@@ -1,7 +1,6 @@
 {
-    "latest_version": "v2.0",
-    "critical": true,
-    "release_notes": "BSF-INTEL Version 2.0 Production Release.\n- Complete UI/UX overhaul with Industrial Bento Grid Dashboard.\n- Advanced AI prediction modules for Surface Roughness.\n- Real-time power and force sensor visualization.\n- Enterprise-grade security and authentication system.\n- Professional branding and high-performance optimizations.",
-    "installer_url": "https://raw.githubusercontent.com/joshua-an-JGS/BSF-INTEL/main/updates/BSF_INTEL_v2_0_1.exe",
-    "sha256": "42a12c01627fec16512b97b071e3c49d633e518fac69b4972689109ec6b4f3df"
+    "latest_version": "2.0.1",
+    "installer_url": "https://github.com/Joshua-an-JGS/BSF-INTEL/releases/download/v2.0.1/BSF_INTEL_v2_0.exe",
+    "sha256": "DE7243979CFA26FC4C0DC63A4E65E9035EAD9B28012DE7412894C186A2A8116D",
+    "release_notes": "BSF-INTEL Version 2.0.1 Patch Release.\n- CRITICAL FIX: Corrected PLC Force Sensor port from 502 to 4001 (IP: 192.168.0.1).\n- NEW: Added editable Port Number field in the PLC COM Setting dialog (below IP Address).\n- FIX: Network scanner now probes the user-specified port instead of the hardcoded Modbus port 502.\n- FIX: Prevents connectivity failure to Force Sensor (Fx, Fy, Fz) caused by wrong default port.\n- Both IP Address and Port Number are now fully configurable per device and saved persistently."
 }
