@@ -1,0 +1,7 @@
+{
+    "latest_version": "v2.0",
+    "critical": true,
+    "release_notes": "BSF-INTEL Version 2.0 Production Release.\n- Complete UI/UX overhaul with Industrial Bento Grid Dashboard.\n- Advanced AI prediction modules for Surface Roughness.\n- Real-time power and force sensor visualization.\n- Enterprise-grade security and authentication system.\n- Professional branding and high-performance optimizations.",
+    "installer_url": "https://raw.githubusercontent.com/joshua-an-JGS/BSF-INTEL/main/updates/BSF_INTEL_v2_0_1.exe",
+    "sha256": "42a12c01627fec16512b97b071e3c49d633e518fac69b4972689109ec6b4f3df"
+}
