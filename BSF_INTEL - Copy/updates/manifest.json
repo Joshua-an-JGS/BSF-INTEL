@@ -1,6 +1,6 @@
 {
     "latest_version": "2.0.1",
-    "installer_url": "https://github.com/joshua-an-JGS/BSF-INTEL/releases/download/v2.0.1/BSF_INTEL_v2_0.exe",
+    "installer_url": "https://github.com/Joshua-an-JGS/BSF-INTEL/releases/download/v2.0.1/BSF_INTEL_v2_0.exe",
     "sha256": "DE7243979CFA26FC4C0DC63A4E65E9035EAD9B28012DE7412894C186A2A8116D",
     "release_notes": "BSF-INTEL Version 2.0.1 Patch Release.\n- CRITICAL FIX: Corrected PLC Force Sensor port from 502 to 4001 (IP: 192.168.0.1).\n- NEW: Added editable Port Number field in the PLC COM Setting dialog (below IP Address).\n- FIX: Network scanner now probes the user-specified port instead of the hardcoded Modbus port 502.\n- FIX: Prevents connectivity failure to Force Sensor (Fx, Fy, Fz) caused by wrong default port.\n- Both IP Address and Port Number are now fully configurable per device and saved persistently."
 }
