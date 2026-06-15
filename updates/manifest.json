@@ -1,6 +1,6 @@
 {
     "latest_version": "2.0.2",
     "installer_url": "https://github.com/Joshua-an-JGS/BSF-INTEL/releases/download/v2.0.2/BSF_INTEL_v2.0_Setup.exe",
-    "sha256": "B5DB572B502CDC77D88165E93E1B06FCAB70D7C7EFCCA1B7328C345E6AE9B021",
-    "release_notes": "BSF-INTEL Version 2.0.2 Release.\n- NEW: Modernized dashboard UI with premium card-styled KPI widgets.\n- NEW: Left-accent status highlights and custom badge styles for cards.\n- NEW: Live event-driven Modbus telemetry pipeline (removes all mock/placeholder timers).\n- NEW: Real-time dynamic AI prediction and confidence estimation driven by force sensors."
+    "sha256": "D40CB84FBF3D68B4DFB8F34EAF28FAA3B2DD3BCC7BFD28D76684AA652A58F71C",
+    "release_notes": "BSF-INTEL Version 2.0.2 Release.\n- NEW: Modernized dashboard UI with premium card-styled KPI widgets.\n- NEW: Left-accent status highlights and custom badge styles for cards.\n- NEW: Live event-driven Modbus telemetry pipeline (removes all mock/placeholder timers).\n- NEW: Real-time dynamic AI prediction and confidence estimation driven by force sensors.\n- FIX: Increased vertical height and optimized padding for Connect overlay button to prevent text clipping."
 }
