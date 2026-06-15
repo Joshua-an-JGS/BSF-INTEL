@@ -1,0 +1,581 @@
+/* FOUNDATION */
+QWidget {
+    background-color: #0B1220;
+    color: #F8FAFC;
+    font-family: "Segoe UI";
+    font-size: 13px;
+}
+
+QLabel {
+    background-color: transparent;
+}
+
+QMainWindow, QDialog {
+    background-color: #0A1322;
+}
+
+/* TYPOGRAPHY */
+#PageTitle {
+    font-size: 22px;
+    font-weight: 800;
+    color: #F8FAFC;
+}
+
+#SectionTitle, #LibraryTitle, #AboutTitle {
+    font-size: 18px;
+    font-weight: 700;
+    color: #F8FAFC;
+}
+
+#WidgetTitle {
+    font-size: 13px;
+    font-weight: 700;
+    color: #CBD5E1;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+#MetricLabel {
+    color: #94A3B8;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#MetricValue, #HealthValue {
+    font-size: 18px;
+    font-weight: 800;
+    color: #F8FAFC;
+}
+
+#MajorRaValue {
+    font-size: 46px;
+    font-weight: 900;
+    color: #60A5FA;
+}
+
+#ConfidenceValue {
+    color: #22C55E;
+    font-weight: 800;
+}
+
+#CardTitle, #NotificationTitle, #AlertTitle {
+    font-weight: 700;
+    color: #F8FAFC;
+}
+
+#CardDesc, #NotificationMsg, #AlertMsg, #AboutDesc {
+    color: #94A3B8;
+}
+
+/* SHELL */
+#Header {
+    background-color: #111827;
+    border-bottom: 1px solid #1E293B;
+}
+
+#Sidebar {
+    background-color: #0F172A;
+    border-right: 1px solid #1E293B;
+}
+
+#Sidebar QWidget {
+    background-color: transparent;
+}
+
+#SidebarTitle {
+    font-size: 21px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+#SidebarSubtitle, #CopyrightLabel {
+    color: #94A3B8;
+    font-size: 11px;
+}
+
+#UserName {
+    color: #E2E8F0;
+    font-weight: 700;
+}
+
+#NavButton {
+    background-color: transparent;
+    color: #94A3B8;
+    border: none;
+    border-radius: 9px;
+    padding: 10px 12px;
+    font-weight: 600;
+    text-align: left;
+}
+
+#NavButton:hover {
+    background-color: #1E293B;
+    color: #F8FAFC;
+}
+
+#NavButton:checked {
+    background-color: #2563EB;
+    color: #FFFFFF;
+}
+
+/* BUTTONS */
+QPushButton {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-weight: 700;
+}
+
+QPushButton:hover {
+    background-color: #1D4ED8;
+}
+
+QPushButton:disabled {
+    background-color: #334155;
+    color: #64748B;
+    border-color: #334155;
+}
+
+#PrimaryBtn {
+    background-color: #2563EB;
+    color: #FFFFFF;
+}
+
+#SignOutBtn {
+    background-color: #DC2626;
+    color: #FFFFFF;
+}
+
+#SecondaryBtn, #ClearBtn {
+    background-color: #0F172A;
+    color: #CBD5E1;
+    border: 1px solid #334155;
+}
+
+#SecondaryBtn:hover, #ClearBtn:hover {
+    background-color: #1E293B;
+    border-color: #475569;
+}
+
+#AlertBtn {
+    background-color: #DC2626;
+    color: #FFFFFF;
+}
+
+#AlertBtn:hover {
+    background-color: #B91C1C;
+}
+
+#CloseBtn {
+    background: transparent;
+    border: none;
+    color: #94A3B8;
+    padding: 0;
+}
+
+#CloseBtn:hover {
+    background: #1E293B;
+    color: #E2E8F0;
+}
+
+#DashboardToolbar {
+    background-color: #111827;
+    border-bottom: 1px solid #1E293B;
+    padding: 5px;
+}
+
+#DashboardToolbar QPushButton {
+    min-height: 30px;
+}
+
+#DashboardToolbar QPushButton:checked {
+    background-color: #DC2626;
+    color: #FFFFFF;
+}
+
+/* INPUTS */
+QLineEdit, QComboBox, QTextEdit {
+    background-color: #111827;
+    color: #F8FAFC;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+QLineEdit:focus, QComboBox:focus, QTextEdit:focus {
+    border: 1px solid #60A5FA;
+}
+
+/* TABLES */
+QTableWidget {
+    background-color: #111827;
+    alternate-background-color: #0F172A;
+    color: #F8FAFC;
+    border: 1px solid #1E293B;
+    border-radius: 10px;
+    gridline-color: #1E293B;
+}
+
+QHeaderView::section {
+    background-color: #1E293B;
+    color: #94A3B8;
+    border: none;
+    border-bottom: 1px solid #334155;
+    padding: 8px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+/* DASHBOARD */
+#DashboardContainer {
+    background-color: #0B1220;
+    border: none;
+}
+
+#DashboardWidget {
+    background-color: #111A2B;
+    border: 1px solid #22304A;
+    border-radius: 14px;
+}
+
+#DashboardWidget:hover {
+    border-color: #4A93FF;
+}
+
+#WidgetTitleBar {
+    background-color: #0F1A2F;
+    border-bottom: 1px solid #22314D;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+#WidgetTitleBar QPushButton {
+    background-color: transparent;
+    border: none;
+    color: #94A3B8;
+    border-radius: 6px;
+}
+
+#WidgetTitleBar QPushButton:hover {
+    background-color: #1E293B;
+    color: #E2E8F0;
+}
+
+#AlertItem, #NotificationItem {
+    background-color: #131F34;
+    border: 1px solid #233451;
+    border-radius: 10px;
+}
+
+#InfoPanel {
+    background-color: #131F34;
+    border: 1px solid #233451;
+    border-radius: 10px;
+}
+
+#ValuePanel {
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #182A4A, stop:1 #111E36);
+    border: 1px solid #264375;
+    border-radius: 12px;
+}
+
+#ValuePanel:hover {
+    border-color: #3B82F6;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #223B69, stop:1 #172B4D);
+}
+
+/* PARTS KPI CARD */
+#MetricCard_parts {
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #162440, stop:1 #0F1A30);
+    border: 1px solid #223860;
+    border-left: 4px solid #3B82F6;
+    border-radius: 12px;
+}
+
+#MetricCard_parts:hover {
+    border-color: #3B82F6;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #1E3157, stop:1 #132442);
+}
+
+#MetricIcon_parts {
+    background-color: #172544;
+    border: 1px solid #28447B;
+    border-radius: 14px;
+}
+
+/* CYCLE KPI CARD */
+#MetricCard_cycle {
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #162440, stop:1 #0F1A30);
+    border: 1px solid #223860;
+    border-left: 4px solid #10B981;
+    border-radius: 12px;
+}
+
+#MetricCard_cycle:hover {
+    border-color: #10B981;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #1E3157, stop:1 #132442);
+}
+
+#MetricIcon_cycle {
+    background-color: #122A26;
+    border: 1px solid #1C4D43;
+    border-radius: 14px;
+}
+
+/* RATE KPI CARD */
+#MetricCard_rate {
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #162440, stop:1 #0F1A30);
+    border: 1px solid #223860;
+    border-left: 4px solid #F59E0B;
+    border-radius: 12px;
+}
+
+#MetricCard_rate:hover {
+    border-color: #F59E0B;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #1E3157, stop:1 #132442);
+}
+
+#MetricIcon_rate {
+    background-color: #2C2015;
+    border: 1px solid #543E24;
+    border-radius: 14px;
+}
+
+/* UPTIME KPI CARD */
+#MetricCard_uptime {
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #162440, stop:1 #0F1A30);
+    border: 1px solid #223860;
+    border-left: 4px solid #8B5CF6;
+    border-radius: 12px;
+}
+
+#MetricCard_uptime:hover {
+    border-color: #8B5CF6;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #1E3157, stop:1 #132442);
+}
+
+#MetricIcon_uptime {
+    background-color: #221C38;
+    border: 1px solid #40346B;
+    border-radius: 14px;
+}
+
+/* HEALTH ROW CARDS */
+#HealthRow {
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #132038, stop:1 #0C1628);
+    border: 1px solid #1E3154;
+    border-radius: 10px;
+}
+
+#HealthRow:hover {
+    border-color: #3B82F6;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #1A2D4E, stop:1 #10203B);
+}
+
+#HealthRow[status="optimal"] {
+    border-left: 4px solid #22C55E;
+}
+
+#HealthRow[status="warning"] {
+    border-left: 4px solid #F59E0B;
+}
+
+#HealthRow[status="error"] {
+    border-left: 4px solid #EF4444;
+}
+
+/* HEALTH ROW ICON BADGES */
+#HealthIcon_vibration, #HealthIcon_temperature, #HealthIcon_spindle {
+    background-color: #0B1220;
+    border: 1px solid #1E293B;
+    border-radius: 14px;
+}
+
+#DashboardWidget QLabel {
+    background-color: transparent;
+}
+
+#AlertTime {
+    color: #94A3B8;
+    font-size: 10px;
+}
+
+#AlertIndicator {
+    border-radius: 2px;
+}
+
+#AlertItem[level="info"] #AlertIndicator, #AlertItem[level="mock"] #AlertIndicator { background-color: #3B82F6; }
+#AlertItem[level="warning"] #AlertIndicator, #AlertItem[level="connecting"] #AlertIndicator { background-color: #F59E0B; }
+#AlertItem[level="error"] #AlertIndicator, #AlertItem[level="critical"] #AlertIndicator, #AlertItem[level="fault"] #AlertIndicator { background-color: #EF4444; }
+#AlertItem[level="success"] #AlertIndicator, #AlertItem[level="live"] #AlertIndicator { background-color: #22C55E; }
+
+#ConnectionStatus {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 0;
+    border: none;
+    color: #94A3B8;
+    background-color: transparent;
+}
+
+#ConnectionStatus[state="live"] { color: #22C55E; }
+#ConnectionStatus[state="connecting"], #ConnectionStatus[state="warning"] { color: #F59E0B; }
+#ConnectionStatus[state="fault"] { color: #EF4444; }
+#ConnectionStatus[state="info"], #ConnectionStatus[state="mock"] { color: #3B82F6; }
+#ConnectionStatus[state="disconnected"] { color: #64748B; }
+
+QLabel[status="optimal"], QFrame[status="optimal"] {
+    color: #22C55E;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+QLabel[status="warning"], QFrame[status="warning"] {
+    color: #FCD34D;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+QLabel[status="error"], QFrame[status="error"], QLabel[status="critical"], QFrame[status="critical"] {
+    color: #FCA5A5;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+#ConfBar {
+    background-color: #334155;
+    border-radius: 3px;
+}
+
+#ConfBar[status="optimal"] { background-color: #22C55E; }
+#ConfBar[status="warning"] { background-color: #F59E0B; }
+#ConfBar[status="error"] { background-color: #EF4444; }
+
+#LibraryPanel {
+    background-color: #0F172A;
+    border-left: 1px solid #1E293B;
+}
+
+#PreviewCard {
+    background-color: #111827;
+    border: 1px solid #1E293B;
+    border-radius: 10px;
+}
+
+#PreviewCard:hover {
+    border-color: #3B82F6;
+}
+
+#LoginHeading {
+    font-size: 30px;
+    font-weight: 800;
+    color: #F8FAFC;
+}
+
+#LoginSubtitle {
+    font-size: 16px;
+    color: #94A3B8;
+}
+
+#AppTitleBlue {
+    font-size: 24px;
+    font-weight: 800;
+    color: #60A5FA;
+}
+
+#DescTitle {
+    font-size: 24px;
+    font-weight: 800;
+    color: #F8FAFC;
+}
+
+#DividerLabel {
+    color: #94A3B8;
+    font-size: 12px;
+}
+
+#TextBtnBlue {
+    background: transparent;
+    border: none;
+    color: #60A5FA;
+    font-weight: 600;
+}
+
+#TextBtnBlue:hover {
+    color: #93C5FD;
+}
+
+#TextBtnGray {
+    background: transparent;
+    border: none;
+    color: #94A3B8;
+}
+
+#StrengthLabel {
+    font-size: 12px;
+    color: #94A3B8;
+}
+
+#GoogleBtn {
+    background-color: #FFFFFF;
+    color: #111827;
+    border: 1px solid #D1D5DB;
+}
+
+#GoogleBtn:hover {
+    background-color: #F8FAFC;
+}
+
+#TogglePassBtn {
+    background-color: #111827;
+    border: 1px solid #334155;
+    border-left: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#AuthPanel {
+    background-color: #0B1220;
+}
+
+#BrandPanel {
+    background-color: #0F172A;
+}
+
+#AboutFooter {
+    background-color: #0F172A;
+    border-top: 1px solid #1E293B;
+}
+
+#SeparatorLine {
+    max-height: 1px;
+    min-height: 1px;
+    background-color: #334155;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: #0F172A;
+    width: 10px;
+}
+
+QScrollBar::handle:vertical {
+    background: #334155;
+    min-height: 24px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #475569;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
