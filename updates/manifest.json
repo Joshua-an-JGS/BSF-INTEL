@@ -1,6 +1,6 @@
 {
-    "latest_version": "2.0.1",
-    "installer_url": "https://github.com/Joshua-an-JGS/BSF-INTEL/releases/download/v2.0.1/BSF_INTEL_v2.0_Setup.exe",
-    "sha256": "4C72137DB9F30453651770FE86C53496914194650E2A32DC488D10B733FF1810",
-    "release_notes": "BSF-INTEL Version 2.0.1 Patch Release.\n- CRITICAL FIX: Corrected PLC Force Sensor port from 502 to 4001 (IP: 192.168.0.1).\n- NEW: Added editable Port Number field in the PLC COM Setting dialog (below IP Address).\n- FIX: Network scanner now probes the user-specified port instead of the hardcoded Modbus port 502.\n- FIX: Prevents connectivity failure to Force Sensor (Fx, Fy, Fz) caused by wrong default port.\n- Both IP Address and Port Number are now fully configurable per device and saved persistently.\n- FIX: App now auto-launches correctly after silent update install."
+    "latest_version": "2.0.2",
+    "installer_url": "https://github.com/Joshua-an-JGS/BSF-INTEL/releases/download/v2.0.2/BSF_INTEL_v2.0_Setup.exe",
+    "sha256": "B5DB572B502CDC77D88165E93E1B06FCAB70D7C7EFCCA1B7328C345E6AE9B021",
+    "release_notes": "BSF-INTEL Version 2.0.2 Release.\n- NEW: Premium dashboard UI featuring sleek KPI cards and rounded icon badges.\n- NEW: Complete linear gradient styling supporting reactive hover elevations on both Light and Dark themes.\n- NEW: Transitioned dashboard widgets from mock simulation loops to a live, event-driven Modbus telemetry pipeline.\n- NEW: Calculated real-time physical telemetry indicators (spindle loads, friction temperature, vibration variance) directly from live PLC/VFD signals.\n- FIX: Automatic alert triggers on force standard deviation and VFD rated power thresholds."
 }
